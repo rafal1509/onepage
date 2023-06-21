@@ -9,7 +9,8 @@ jobs:
   steps:
   - uses: actions/checkout@v1
   - name: Deploy app
-  uses: actions/FTP-Deploy-Action@v4.3.4
+  
+  uses: SamKirkLand/FTP-Deploy-Action@v4.3.4
   with:
   server: "s1.ct8.pl"
   server-dir: "./public_html/ozezer.ct8.pl "
